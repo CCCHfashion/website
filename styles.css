@@ -1,0 +1,72 @@
+body {
+    font-family: Bahnschrift, Lexend, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #33c37a;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    flex: 1 1 calc(30% - 2rem); /* Responsive based on space */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    display: inline-block; /* Ensures the logo stays aligned with the text */
+    margin-right: 1rem; /* Optional spacing between logo and header text */
+}
+
+.logo img {
+    height: 100px; /* Adjust height to fit your design; adjust as needed */
+    width: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align logo vertically with text */
+}
