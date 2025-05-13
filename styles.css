@@ -70,3 +70,22 @@ input, textarea {
     width: auto; /* Maintain aspect ratio */
     vertical-align: middle; /* Align logo vertically with text */
 }
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
